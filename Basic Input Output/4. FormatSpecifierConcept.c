@@ -16,4 +16,9 @@ void main() {
     // printf("This is %d and this is %f\n", 10, 15.5);
     // printf("The sum of %d and %d = %d", 10, 5, 15);
     // printf("The sum of %d and %d = %d", 10, 5); // Mismatch List
+
+    // DIGITS AFTER DECIMAL POINT
+    // printf("This is a formated number %.5d\n", 10);
+    // printf("This is a formated number %.3f\n", 10.5);
+    // printf("This is a formated number %.3lf\n", 20.5);
 }
