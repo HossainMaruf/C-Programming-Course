@@ -4,12 +4,10 @@ void main() {
     file = fopen("record.txt", "r");
     if(file == NULL) printf("File is not opened\n");
     else {
-        putchar(fgetc(file));
-        putchar(fgetc(file));
-        putchar(fgetc(file));
-        putchar(fgetc(file));
-        putchar(fgetc(file));
-        putchar(fgetc(file));
+        char ch;
+        while((ch = fgetc(file)) != -1) {
+            putchar(ch);
+        }
     }
     fclose(file);
 }
