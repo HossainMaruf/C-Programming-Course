@@ -4,27 +4,27 @@ void main() {
     file = fopen("record.txt", "r");
     if(file == NULL) printf("File is not opened\n");
     else {
-        // char ch;
-        // while((ch = fgetc(file)) != -1) {
-        //     putchar(ch);
-        // }
+        char ch;
+        while((ch = fgetc(file)) != -1) {
+            printf("Pos = %ld = %c\n", ftell(file)-1, ch);
+        }
         // putchar(fgetc(file));
         // putchar(fgetc(file));
         // putchar(fgetc(file));
         // rewind(file); // resetting the file pointer
         // putchar(fgetc(file));
         // putchar(fgetc(file));
-        long value = ftell(file);
-        printf("%ld\n", value);
+        // long value = ftell(file);
+        // printf("%ld\n", value);
 
-        fgetc(file);
+        // fgetc(file);
 
-        value = ftell(file);
-        printf("%ld\n", value);
+        // value = ftell(file);
+        // printf("%ld\n", value);
 
-        fgetc(file);
-        value = ftell(file);
-        printf("%ld\n", value);
+        // fgetc(file);
+        // value = ftell(file);
+        // printf("%ld\n", value);
 
     }
     fclose(file);
