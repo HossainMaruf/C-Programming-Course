@@ -6,10 +6,11 @@ void main() {
     if (file == NULL) printf("File is not opened\n");
     else printf("File is opened\n");
 
-    putchar(fgetc(file));
-    putchar(fgetc(file));
-    putchar(fgetc(file));
-    putchar(fgetc(file));
+    char ch;
+    while((ch = fgetc(file)) != EOF) {
+        // putchar(ch);
+        printf("\n%d = Position = %ld\n",ch, ftell(file));
+    }
 
     fclose(file);
 }

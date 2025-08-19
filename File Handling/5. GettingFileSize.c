@@ -6,10 +6,9 @@ void main() {
     if (file == NULL) printf("File is not opened\n");
     else printf("File is opened\n");
 
-    putchar(fgetc(file));
-    putchar(fgetc(file));
-    putchar(fgetc(file));
-    putchar(fgetc(file));
+    fseek(file, 0L, SEEK_END);
+    long int pos = ftell(file);
+    printf("File Size = %d Bytes\n", pos);
 
     fclose(file);
 }

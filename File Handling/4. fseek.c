@@ -9,7 +9,9 @@ void main() {
     putchar(fgetc(file));
     putchar(fgetc(file));
     putchar(fgetc(file));
-    putchar(fgetc(file));
 
+    fseek(file, -3L, SEEK_END);
+
+    putchar(fgetc(file));
     fclose(file);
 }
