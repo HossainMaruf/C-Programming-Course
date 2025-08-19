@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define WIN_EXTRA_CHARS 2
+
 int lineLength(FILE *file) {
     int count=0;
     while(fgetc(file) != '\n') count++;
