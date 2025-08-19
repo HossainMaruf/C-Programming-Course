@@ -39,14 +39,14 @@ void main() {
     if(file == NULL) printf("File is not opened!\n");
     else printf("File is opened!\n");
 
-    int *info = getFileInfo(file);
+    int line = 6, count_newline = 0, letter_count = 0;
+    while(count_newline != (line-1)) { if(fgetc(file) == '\n') count_newline++; }
+    long saved = ftell(file);
+    while(fgetc(file) != '\n') letter_count++;
+    fseek(file, saved, SEEK_SET);
+    char buffer[letter_count+2];
+    printf(fgets(buffer, sizeof(buffer), file));
 
-    printLine(5, info, file);
 
-    // for(int i=0; info[i] != -1; i++) {
-    //     printf("%d = %d\n", i+1, info[i]);
-    // }
-
-    free(info);
     fclose(file);
 }
