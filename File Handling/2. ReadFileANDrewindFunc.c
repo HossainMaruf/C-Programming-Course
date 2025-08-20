@@ -2,7 +2,7 @@
 void main() {
 
     FILE *file = NULL;
-    file = fopen("record.txt", "r");
+    file = fopen("9. ReadRandomLine2.c", "r");
     if (file == NULL) printf("File is not opened\n");
     else printf("File is opened\n");
 
