@@ -1,5 +1,9 @@
 # C Programming Course (According to Playlist and Code)
 
+## Loop
+- `for` loop syntax with advance concept with code
+- `for` loop practical
+
 ## File Handling
 - Theory with `fopen()`, `fclose()` and mode of file opening
 - Read char by char using `fgetc()` function - `fgetc.c`
@@ -14,3 +18,6 @@
 - Read formatted data using `fscanf()` function - `ReadFormattedData.c`
 - Read student data using `fscanf()` and understand the loop hole to use it - `ReadStudentData.c`
 - Read formattd data using `fgets()` and `sscanf()` safely instead of `fscanf()` - `ReadStdDataSafely.c`
+- Write a char using `fputc()` function
+- Write data using `fputs()` function
+- Write formatted data using `fprintf()` function
