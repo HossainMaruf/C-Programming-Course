@@ -8,8 +8,7 @@ void main() {
 
     char ch;
     while((ch = fgetc(file)) != EOF) {
-        // putchar(ch);
-        printf("\n%d = Position = %ld\n",ch, ftell(file));
+        printf("%c",ch);
     }
 
     fclose(file);
