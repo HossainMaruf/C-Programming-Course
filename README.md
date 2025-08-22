@@ -1,5 +1,35 @@
 # C Programming Course (According to Playlist and Code)
 
+## Basic Syntax
+- Course Introduction, History and Applications
+- Generation and Levels of Programming Language
+- Translator Program (Assembler, Compiler, Interpreter)
+- Environment Setup (CodeBlocks)
+- Environment Setup (VScode + GCC Compiler)
+- Structure of a C Program
+- `Hello World` the first program
+- Commenting (Single Line and Multiline)
+- Backslash Constant (`\n` and `\t`)
+- Data Types (`int`, `float`, `double`, `char`, `bool`, `void`, `struct` etc)
+- Format Specifier (`%d`, `%f`, `%lf` etc)
+- Arithmetic Operator Example (`+`, `-`, `*`, `/`, `%`)
+- Identifier Theory and Types (Re-record)
+- Variable and Rules of Identifiers
+- Advanced Variable Concept
+- Constant
+- Taking User Input from Keyboard (`scanf()`)
+- Diameter, Circumference and area of a circle
+- Diameter, Surface area and volume of a sphere
+- Triangle Area
+- Celcius to Fahrenheit and vice versa
+- Operator
+- Relational Operator
+- Logical Operator
+- Control Statement
+- `if else`
+- `if else ladder`
+- `nested if else`
+
 ## Loop
 - `for` loop syntax with advance concept with code
 - `for` loop practical
