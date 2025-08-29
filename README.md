@@ -68,6 +68,7 @@
 ## Pointer
 - Pointer Theory and Why Pointer
 - Pointer Arithmetic 
+- `const int*` vs `int* const` vs `const int* const`
 
 ## Function
 - Theory of Concept Necessity and Syntax
