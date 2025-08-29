@@ -19,6 +19,7 @@
 - Arithmetic Program with Variable and Format Specifier
 - Constant
 - Taking User Input from Keyboard with `scanf()`
+- Why we use Header File like `stdio.h`
 
 ## Arithmetic Problem
 - Diameter, Circumference and area of a circle - `Circle.c`
@@ -31,9 +32,11 @@
 - Logical Operator (`||`, `&&`, `!`)
 - Relational Operators with Logical Operators
 - Increment/Decrement Operator
+- `sizeof` operator for getting data size
 - Swap two number with temporary variable
 - Swap two number without temporary variable
 - (HW) Triangle Area using 3 Sides
+- (HW) Perimeter and area of a Square using side
 
 ## Conditional Control Statement
 - `Control Statement` Theory
@@ -59,18 +62,41 @@
 
 ## Loop Control Statement
 - `for` loop Theory
-- Print statement of n times and `gcc` std compilation `-std=c89 -std=c90 -std=c99 -std=c11` flag and multiple variable
-- Print natural/even/odd number from 1 to n and n to 1
-- Sum of natural/even/odd number from 1 to n
-- Print Multiplication Table
-- Check a number prime or not 
--  
+- Print statement of n times and `gcc` std compilation `-std=c89 -std=c90 -std=c99 -std=c11` flag and multiple variable - `for.c`
+- Print natural/even/odd number from 1 to n and n to 1 - `EvenOddNatural.c`
+- Sum of natural/even/odd number from 1 to n - `SumEvenOddNatural.c`
+- Calculate Factorial using loop - `factorial.c`
+- Print all ASCII char - `ASCII.c`
+- `break` and `continue` statement in loop - `BreakContinue.c`
+- Calcualte LCM of two Integer Number - `lcm.c`
+- Calcualte GCD/HCF of two Integer Number - `gcd.c`
+- Check a number prime or not - `prime.c` 
+- Print fibonacci series of first nth term - `fibonacci.c`
+- `while` loop theory
+- Print the digits of a number, count and sum them - `numberDigits.c`
+- Get first and last digit of a number and sum them - `sumFirstLastDigit.c`
+- Swap fist and last digit of a number - `swapFirstLastDigit.c`
+- Reverse a number and check palindome or not - `palindromeNumber.c`
+- `do while` loop theory
+- Entry Controlled and Exit Controlled Loop with `do VS do while`
 - `Nested for` loop concept
+- Print all prime numbers between 1 to n
+- Prime all prime factors of a number
+- Print all perfect numbers between 1 to n
+- Print all strong numbers between 1 to n
+- Print all armostrong numbers between 1 to n
+- (HW) Print Multiplication Table
+- (HW) Print a-z and A-Z
+- (HW) Print multiplication of digits of a number
+- (HW) Print frequency of each digit of a number
 
 ## Array and String
-- Array Syntax, Declaration, Assignment and print result (c89/c90 Staic and c99 Dynamic)
+- Array Syntax, Declaration, Assignment and print result (c89/c90 Staic and c99/c11 Dynamic)
 - Loop and Array the perfect bonding (Generally `for` loop)
-- `char[]` vs `char*`
+- char array and `String Terminating \0` concept - `charArray.c`
+- char array initializer list - `charArrayInitializer.c`
+- `char[] or string` data type concept using "" with free `\0` - `string.c`
+- `string literal` concept and `char[]` vs `char*` - `stringLiteral.c`
 
 ## Pointer
 - Pointer Theory and Why Pointer
@@ -78,7 +104,7 @@
 - `const int*` vs `int* const` vs `const int* const`
 
 ## Function
-- Theory of Concept Necessity and Syntax
+- Theory of Concept, Types, Necessity and Syntax
 - Recursion (Recursive Function)
 
 ## File Handling
