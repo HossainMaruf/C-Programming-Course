@@ -58,17 +58,21 @@
 
 
 ## Loop Control Statement
-- `for` loop syntax with advance concept with code
-- Print statement of n times and `gcc` std compilation option
-- Print natural/even/odd number from 1 to n and n to 1
-- Sum of natural/even/odd number from 1 to n
-- Print Multiplication Table
+- `for` loop Theory
+- Print statement of n times and `gcc` std compilation `-std=c89 -std=c90 -std=c99 -std=c11` flag and multiple variable - `for.c`
+- Print natural/even/odd number from 1 to n and n to 1 - `EvenOddNatural.c`
+- Sum of natural/even/odd number from 1 to n - `SumEvenOddNatural.c`
+- Calculate Factorial using loop - `factorial.c`
+- Print all ASCII char - `ASCII.c`
+- `break` and `continue` statement in loop - `BreakContinue.c`
+- Calcualte LCM of two Integer Number - `lcm.c`
+- Calcualte GCD/HCF of two Integer Number - `gcd.c`
 - Check a number prime or not 
--  
 - `Nested for` loop concept
+- (HW) Print Multiplication Table
 
 ## Array and String
-- Array Syntax, Declaration, Assignment and print result (c89/c90 Staic and c99 Dynamic)
+- Array Syntax, Declaration, Assignment and print result (c89/c90 Staic and c99/c11 Dynamic)
 - Loop and Array the perfect bonding (Generally `for` loop)
 - `char[]` vs `char*`
 
