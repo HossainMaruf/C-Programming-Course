@@ -1,6 +1,6 @@
 # C Programming Course (According to Playlist and Code)
 
-## Basic Syntax
+## Basic Input Output
 - Course Introduction, History and Applications
 - Generation and Levels of Programming Language
 - Translator Program (Assembler, Compiler, Interpreter)
@@ -10,33 +10,40 @@
 - `Hello World` the first program with `printf()`
 - Commenting (Single Line and Multiline)
 - Backslash Constant (`\n` and `\t`)
+- Data Types (`int`, `float`, `double`, `char`, `bool`, `void`, `struct` etc)
 - Format Specifier (`%d`, `%f`, `%lf` etc)
 - Arithmetic Operator Example (`+`, `-`, `*`, `/`, `%`)
-- Data Types (`int`, `float`, `double`, `char`, `bool`, `void`, `struct` etc)
 - Identifier Theory and Types
 - Variable and Rules of Identifiers
 - Advanced Variable Concept
 - Arithmetic Program with Variable and Format Specifier
 - Constant
 - Taking User Input from Keyboard with `scanf()`
-- Diameter, Circumference and area of a circle
-- Diameter, Surface area and volume of a sphere
-- Triangle Area
-- Celcius to Fahrenheit and vice versa
+
+## Arithmetic Problem
+- Diameter, Circumference and area of a circle - `Circle.c`
+- Diameter, Surface area and volume of a sphere - `Sphere.c`
+- Celcius to Fahrenheit and vice versa - `Temperature.c`
+
+## Operators
 - Operators (Assignment, Arithmetic, Relational, Logical, Increment/Decrement, Bitwise, Conditional, Special)
 - Relational Operator (`<`, `<=`, `>`, `>=`, `==`, `!=`)
 - Logical Operator (`||`, `&&`, `!`)
+- Relational Operators with Logical Operators
 - Increment/Decrement Operator
 - Swap two number with temporary variable
 - Swap two number without temporary variable
+- (HW) Triangle Area using 3 Sides
 
 ## Conditional Control Statement
+- `Control Statement` Theory
 - `if else` Theory
 - Greater/Smaller between two numbers `using if else ladder`
 - Greatest/Smallest among three numbers `using logical operator & nested if else`
 - Conditional Operator
 - Even/Odd and Divisibility Checking of a number
 - Leap year or not
+- `char` data type
 - A character alphabet, digit or special char + Vowel Consonant problem 
 - Take input day number and print day name
 - Number of notes in given amount in tk
@@ -51,8 +58,8 @@
 
 
 ## Loop Control Statement
-- `for` loop syntax with advance concept with code
-- Print statement of n times and `gcc` std compilation option
+- `for` loop Theory
+- Print statement of n times and `gcc` std compilation `-std=c89 -std=c90 -std=c99 -std=c11` flag and multiple variable
 - Print natural/even/odd number from 1 to n and n to 1
 - Sum of natural/even/odd number from 1 to n
 - Print Multiplication Table
