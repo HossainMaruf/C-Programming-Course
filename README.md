@@ -31,10 +31,11 @@
 - Relational Operator (`<`, `<=`, `>`, `>=`, `==`, `!=`) - `Relational.c`
 - Logical Operator (`||`, `&&`, `!`) - `Logical.c`
 - Relational Operators with Logical Operators - `RelationalLogical.c`
-- Increment/Decrement Operator
-- `sizeof` operator for getting data size
-- Swap two number with temporary variable
-- Swap two number without temporary variable
+- Increment/Decrement Operator - `IncrementDecrement.c`
+- Conditional Operator - `Conditional.c`
+- `sizeof` operator for getting data size - `sizeof.c`
+- Swap two number with temporary variable - `swapValue.c`
+- Swap two number without temporary variable - `swapWithoutTemp.c`
 - (HW) Triangle Area using 3 Sides
 - (HW) Perimeter and area of a Square using side
 
