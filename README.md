@@ -25,6 +25,8 @@
 - Diameter, Circumference and area of a circle - `Circle.c`
 - Diameter, Surface area and volume of a sphere - `Sphere.c`
 - Celcius to Fahrenheit and vice versa - `Temperature.c`
+- Swap two number with temporary variable - `swapValue.c`
+- Swap two number without temporary variable - `swapWithoutTemp.c`
 
 ## Operators
 - Operators (Assignment, Arithmetic, Relational, Logical, Increment/Decrement, Bitwise, Conditional, Special)
@@ -34,13 +36,11 @@
 - Increment/Decrement Operator - `IncrementDecrement.c`
 - Conditional Operator - `Conditional.c`
 - `sizeof` operator for getting data size - `sizeof.c`
-- Swap two number with temporary variable - `swapValue.c`
-- Swap two number without temporary variable - `swapWithoutTemp.c`
 - (HW) Triangle Area using 3 Sides
 - (HW) Perimeter and area of a Square using side
 
-## Conditional Control Statement
-- `Control Statement` Theory
+## Control Statement
+- `Control Statement` Theory and Types
 - `if else` Theory
 - Greater/Smaller between two numbers `using if else ladder`
 - Greatest/Smallest among three numbers `using logical operator & nested if else`
