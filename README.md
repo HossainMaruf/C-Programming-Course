@@ -18,8 +18,8 @@
 - Advanced Variable Concept
 - Arithmetic Program with Variable and Format Specifier
 - Constant
-- Taking User Input from Keyboard with `scanf()`
 - Why we use Header File like `stdio.h`
+- Taking User Input from Keyboard with `scanf()`
 
 ## Arithmetic Problem
 - Diameter, Circumference and area of a circle - `Circle.c`
@@ -27,7 +27,7 @@
 - Celcius to Fahrenheit and vice versa - `Temperature.c`
 
 ## Operators
-- Operators (Assignment, Arithmetic, Relational, Logical, Increment/Decrement, Bitwise, Conditional, Special)
+- Operators (Assignment, Arithmetic, Relational, Logical, Increment/Decrement, Conditional, Bitwise, Special)
 - Relational Operator (`<`, `<=`, `>`, `>=`, `==`, `!=`) - `Relational.c`
 - Logical Operator (`||`, `&&`, `!`) - `Logical.c`
 - Relational Operators with Logical Operators - `RelationalLogical.c`
@@ -40,13 +40,13 @@
 - (HW) Perimeter and area of a Square using side
 
 ## Conditional Control Statement
-- `Control Statement` Theory
+- `Control Statement` Theory and Types
 - `if else` Theory
 - Greater/Smaller between two numbers `using if else ladder`
 - Greatest/Smallest among three numbers `using logical operator & nested if else`
-- Conditional Operator
 - Even/Odd and Divisibility Checking of a number
 - Leap year or not
+- `switch` statement
 - `char` data type
 - A character alphabet, digit or special char + Vowel Consonant problem 
 - Take input day number and print day name
@@ -99,15 +99,18 @@
 - `char[] or string` data type concept using "" with free `\0` - `string.c`
 - `string literal` concept and `char[]` vs `char*` - `stringLiteral.c`
 
+## Function
+- Theory of Concept, Types, Necessity and Syntax
+- Recursion (Recursive Function)
+
 ## Pointer
 - Pointer Theory and Why Pointer
 - Pointer Arithmetic 
 - `const int*` vs `int* const` vs `const int* const`
 
-## Function
-- Theory of Concept, Types, Necessity and Syntax
-- Recursion (Recursive Function)
-
+## Structure
+## Union
+## Enumeration
 ## File Handling
 - Theory with `fopen()`, `fclose()` and mode of file opening
 - Read char by char using `fgetc()` function - `fgetc.c`
