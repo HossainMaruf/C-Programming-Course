@@ -18,8 +18,8 @@
 - Advanced Variable Concept
 - Arithmetic Program with Variable and Format Specifier
 - Constant
-- Taking User Input from Keyboard with `scanf()`
 - Why we use Header File like `stdio.h`
+- Taking User Input from Keyboard with `scanf()`
 
 ## Arithmetic Problem
 - Diameter, Circumference and area of a circle - `Circle.c`
@@ -40,14 +40,14 @@
 - (HW) Perimeter and area of a Square using side
 
 ## Control Statement
-- `Control Statement` Theory and Types
-- `if else` Theory
-- Greater/Smaller between two numbers `using if else ladder`
-- Greatest/Smallest among three numbers `using logical operator & nested if else`
-- Conditional Operator
-- Even/Odd and Divisibility Checking of a number
-- Leap year or not
-- `char` data type
+- `Control Statement` Theory, Types and Simple Condition - `if.c`
+- `if else` Theory - `ifElse.c`
+- Greater/Smaller between two numbers `using if else ladder` - `LadderTwoNumbers.c`
+- Greatest/Smallest among three numbers `using logical operator` - `LadderThreeNumbers.c`
+- `Nested if else` idea - `NestedThreeNumbers.c`
+- Even/Odd and Divisibility Checking of a number - `EvenOddDivisibility.c`
+- Leap year or not using Ladder and Logical Operator - `LeapYear.c`
+- `char` data type - `char.c`
 - A character alphabet, digit or special char + Vowel Consonant problem 
 - Take input day number and print day name
 - Number of notes in given amount in tk
