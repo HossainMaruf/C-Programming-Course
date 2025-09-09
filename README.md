@@ -7,19 +7,19 @@
 - Environment Setup (CodeBlocks)
 - Environment Setup (VScode + GCC Compiler)
 - Structure of a C Program
-- `Hello World` the first program with `printf()`
-- Commenting (Single Line and Multiline)
-- Backslash Constant (`\n` and `\t`)
+- `Hello World` the first program with `printf()` - `HelloWorld.c`
+- Commenting (Single Line and Multiline) - `Commenting.c`
+- Backslash Constant (`\n` and `\t`) - `BackslashConstant.c` 
 - Data Types (`int`, `float`, `double`, `char`, `bool`, `void`, `struct` etc)
-- Format Specifier (`%d`, `%f`, `%lf` etc)
-- Arithmetic Operator Example (`+`, `-`, `*`, `/`, `%`)
+- Format Specifier (`%d`, `%f`, `%lf` etc) - `FormatSpecifier.c`
+- Arithmetic Operator Example (`+`, `-`, `*`, `/`, `%`) - `BasicArithmatic.c`
 - Identifier Theory and Types
-- Variable and Rules of Identifiers
-- Advanced Variable Concept
-- Arithmetic Program with Variable and Format Specifier
-- Constant
+- Variable and Rules of Identifiers - `IdentifierRules.c`
+- Advanced Variable Concept - `VariableAdvanced.c`
+- Arithmetic Program with Variable and Format Specifier - `VariableANDArithmatic.c` 
+- Constant - `Constant.c`
 - Why we use Header File like `stdio.h`
-- Taking User Input from Keyboard with `scanf()`
+- Taking User Input from Keyboard with `scanf()` - `Input.c`
 
 ## Arithmetic Problem
 - Diameter, Circumference and area of a circle - `Circle.c`
