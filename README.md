@@ -102,14 +102,35 @@
 - Compare two string - `stringCompare.c`
 - Copy string - `StringCopy.c`
 
+## Function
+- Theory, Concept, Types, Necessity and Syntax
+- Recursion (Recursive Function)
+
 ## Pointer
 - Pointer Theory and Why Pointer - `Basic.c`
 - Pointer Arithmetic 
 - `const int*` vs `int* const` vs `const int* const`
 
-## Function
-- Theory of Concept, Types, Necessity and Syntax
-- Recursion (Recursive Function)
+## Structure
+- Theory and Memory Allocation
+- Basic idea and string field - `Employee.c`
+- Multiple struct variable - `EmployeeMultiple.c`
+- Array of struct - `EmployeeArray.c`
+- Array Fields and Taking keyboard input - `StudentArrayField.c`
+- Complete Example - `StudentRecords.c`
+- Deep copy of data - `MarketDeepCopy.c`
+- Call By Value VS Call By Reference of structure - `SchoolData.c`
+- Complex Number Structure - `Complex.c`
+- Size of structure - `StructureSize.c`
+- Bit Fields - `BitFields.c`
+
+## Union
+- Theory and Memory Allocation
+- Numbers in same memory location - `Numbers.c`
+
+
+## Enumeration
+- 
 
 ## File Handling
 - Theory with `fopen()`, `fclose()` and mode of file opening
