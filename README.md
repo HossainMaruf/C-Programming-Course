@@ -98,9 +98,12 @@
 - char array initializer list - `charArrayInitializer.c`
 - `char[] or string` data type concept using "" with free `\0` - `string.c`
 - `string literal` concept and `char[]` vs `char*` - `stringLiteral.c`
+- Calculate string length using loop - `strLength.c`
+- Compare two string - `stringCompare.c`
+- Copy string - `StringCopy.c`
 
 ## Pointer
-- Pointer Theory and Why Pointer
+- Pointer Theory and Why Pointer - `Basic.c`
 - Pointer Arithmetic 
 - `const int*` vs `int* const` vs `const int* const`
 
