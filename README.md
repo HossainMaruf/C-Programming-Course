@@ -18,7 +18,7 @@
 - Advanced Variable Concept - `VariableAdvanced.c`
 - Arithmetic Program with Variable and Format Specifier - `VariableANDArithmatic.c` 
 - Constant - `Constant.c`
-- Why we use Header File like `stdio.h`
+- Why we use Header File like `stdio.h` - `stdio.c`
 - Taking User Input from Keyboard with `scanf()` - `Input.c`
 
 ## Arithmetic Problem

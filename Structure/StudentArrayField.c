@@ -7,7 +7,11 @@ struct Student {
 };
 
 void main() {
-	// struct Student st = {.id = 101, .name = "Akbar Hossain", .subCodes = {101, 102, 103}};
+	// struct Student st = {101, "Akbar Hossain", {101, 102, 103}};
+	// struct Student students[2] = {
+	// 	{101, "Akbar Hossain", {101, 102, 103}
+	// 	{102, "Abdur Rahim", {101, 202, 103}};
+
 	// Take input from keyboard
 	struct Student st;
 	printf("Enter id: ");

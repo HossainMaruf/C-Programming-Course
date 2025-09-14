@@ -8,22 +8,23 @@ struct Employee {
 };
 
 void main() {
-    // struct Employee emp1, emp2;
+    // struct Employee e1, e2;
+    // e1.id = 101;
+    // e1.salary = 10000; 
+    // strcpy(e1.name, "Akbar Hossain");
 
-    // emp1.id = 101;
-    // emp1.salary = 30000;
-    // strcpy(emp1.name, "Asif Akbar");
+    // e2.id = 1001;
+    // e2.salary = 20000; 
+    // strcpy(e2.name, "Mr. Rahim");
 
-    // emp2.id = 202;
-    // emp2.salary = 40000;
-    // strcpy(emp2.name, "Mr. Rahim");
-    struct Employee emp1 = {101, 30000, "Asif Akbar"}, emp2 = {202, 40000, "Mr. Rahim"};
+    // struct Employee e1 = {101, 10000, "Akbar Hossain"}, e2 = {1001, 20000, "Mr. Rahim"};
+    struct Employee e1 = {.salary = 10000, .id = 101, .name = "Akbar Hossain"}, e2 = {.name = "Mr. Rahim", .salary = 20000, .id = 1001};
 
-    printf("Id = %d\n", emp1.id); 
-    printf("Salary = %.3f\n", emp1.salary); 
-    printf("Name = %s\n", emp1.name); 
+    printf("Id = %d\n", e1.id); 
+    printf("Salary = %.3f\n", e1.salary); 
+    printf("Name = %s\n", e1.name);
 
-    printf("Id = %d\n", emp2.id); 
-    printf("Salary = %.3f\n", emp2.salary); 
-    printf("Name = %s\n", emp2.name); 
+    printf("Id = %d\n", e2.id); 
+    printf("Salary = %.3f\n", e2.salary); 
+    printf("Name = %s\n", e2.name); 
 }
