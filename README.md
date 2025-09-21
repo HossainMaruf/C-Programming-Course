@@ -44,22 +44,18 @@
 - `if else` Theory - `ifElse.c`
 - Greater/Smaller between two numbers `using if else ladder` - `LadderTwoNumbers.c`
 - Greatest/Smallest among three numbers `using logical operator` - `LadderThreeNumbers.c`
-- `Nested if else` idea - `NestedThreeNumbers.c`
+- Greatest/Smallest among three numbers - `NestedThreeNumbers.c`
 - Even/Odd and Divisibility Checking of a number - `EvenOddDivisibility.c`
 - Leap year or not using Ladder and Logical Operator - `LeapYear.c`
-- `char` data type - `char.c`
-- A character alphabet, digit or special char + Vowel Consonant problem 
-- Take input day number and print day name
-- Number of notes in given amount in tk
-- Take sides of triangle and check the triangle valid or not + Check it is equilateral, isosceles or scalene triangle.
-- Find roots of quadratic equation 
-- Calculate grade and gpa based on marks
+- Calculate grade and gpa based on marks - `GpaCondition.c`
+- Take sides of triangle and check the triangle valid or not + Check it is equilateral, isosceles or scalene triangle - `TriangleType.c`
+- Find roots of quadratic equation - `QuadraticRoot.c`
+- `char` data type and ASCII value - `charASCII.c`
+- A character alphabet, digit or special char + Vowel Consonant problem - `Alphabet.c` 
 - (HW) Number is Positive, Negative or Zero
-- (HW) Character is uppercase or lowercase
+- (HW) Take input day number and print day name
 - (HW) Take  input month number and print month name
-- (HW) Take angles of triangle and check the triangle valid or not
-- (HW) Calculate profit and loss problem
-
+- (HW) Number of notes in given amount in tk
 
 ## Loop Control Statement
 - `for` loop Theory
@@ -71,7 +67,8 @@
 - `break` and `continue` statement in loop - `BreakContinue.c`
 - Calcualte LCM of two Integer Number - `lcm.c`
 - Calcualte GCD/HCF of two Integer Number - `gcd.c`
-- Check a number prime or not - `prime.c` 
+- Check a number prime or not - `prime.c`
+- Optimization of prime number algorithm - `prime2.c`
 - Print fibonacci series of first nth term - `fibonacci.c`
 - `while` loop theory
 - Print the digits of a number, count and sum them - `numberDigits.c`
@@ -80,7 +77,7 @@
 - Reverse a number and check palindome or not - `palindromeNumber.c`
 - `do while` loop theory
 - Entry Controlled and Exit Controlled Loop with `do VS do while`
-- `Nested for` loop concept
+- `Nested loop` concept
 - Print all prime numbers between 1 to n
 - Prime all prime factors of a number
 - Print all perfect numbers between 1 to n
@@ -106,10 +103,13 @@
 - Theory, Concept, Types, Necessity and Syntax
 - Recursion (Recursive Function)
 
+
 ## Pointer
 - Pointer Theory and Why Pointer - `Basic.c`
 - Pointer Arithmetic 
 - `const int*` vs `int* const` vs `const int* const`
+- Function Pointer Basic - `FunctionPointerBasic.`
+- Array of Function Pointer - `FunctionPointerArray.c`
 
 ## Structure
 - Theory and Memory Allocation
@@ -120,6 +120,7 @@
 - Complete Example - `StudentRecords.c`
 - Deep copy of data - `MarketDeepCopy.c`
 - Call By Value VS Call By Reference of structure - `SchoolData.c`
+- 
 - Complex Number Structure - `Complex.c`
 - Size of structure - `StructureSize.c`
 - Bit Fields - `BitFields.c`
