@@ -1,17 +1,17 @@
 #include <stdio.h>
 void main() {
-    char ch = 'a';
+    /**
+     * 0 - 9 = 48 - 57
+     * A - Z = 65 - 90
+     * a - z = 97 - 122
+     * SPACE = 32
+     * ? = 63
+     */
+    char ch = '?';
+    // char chh = '??' // ERROR
     printf("%c = %d\n", ch, ch);
-    // char ch = 'ab'; // ERROR
-    // printf("%c\n", ch);
-    char ch = '$';
+    ch = '$';
     printf("%c = %d\n", ch, ch);
-    char ch = '.';
-    printf("%c = %d\n", ch, ch);
-    char ch = '3';
-    printf("%c = %d\n", ch, ch);
-    char ch = '*';
-    printf("%c = %d\n", ch, ch);
-    char ch = '`';
+    ch = '@';
     printf("%c = %d\n", ch, ch);
 }
